@@ -1,5 +1,5 @@
 ---
-title: "_Estatus social subjetivo, posición objetiva y percepción de  meritocracia: una aproximación empírica al caso de Chile._"
+title: "_Estatus social subjetivo, posición objetiva y percepción de  meritocracia: una aproximación empírica al caso de Chile._ <br> .small[XXXII Congreso Internacional ALAS, Lima]"
 date: "Diciembre, 2019"
 author: "Julio César Iturra Sanhueza <br> .small[Centro de Estudios de Conflicto y Cohesión Social]" 
 output:

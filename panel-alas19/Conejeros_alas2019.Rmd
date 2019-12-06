@@ -1,0 +1,175 @@
+---
+title: "Educación, valores y percepciones sobre el mérito: Un mirada al caso chileno"
+subtitle: "Alas 2019"
+author: "José Daniel Conejeros"
+date: "`r Sys.Date()`"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      beforeInit: "macros.js"
+
+---
+
+# Introducción
+
+**El mérito**
+
+- Conjugación entre talento y esfuerzo (Young, 1958).
+
+- Criterio de asignación de los sujetos a posiciones sociales (Yair en Ritzer, 2007)
+
+**Percepciones sobre el mérito**
+
+- Valorización del esfuerzo y el trabajo, junto a su respectiva recompensa monetaria y/o de movilidad social (Reynolds y Xian, 2014;  Roex, Huijts & Sieben, 2019; Mijs, 2019)
+
+- Convicción generalizada en el valor del esfuerzo personal como criterio de cohesión en estructura social de posiciones asimétricas (McCoy & Major, 2007). 
+
+- No es solo un principio de justificación y autovaloración, sino que se articula como una expectativa concreta con la que se evalúa la justicia en la sociedad (Sen, 2000; Araujo & Martuccelli, 2012).
+
+---
+
+# Introducción
+
+**Educación y percepciones de mérito** 
+
++ _Educación e ideología_: el mérito como un horizonte normativo para la compresión del mundo y como pauta de acción (Bourdieu & Passeron, 1996). Creer en un mundo justo (Mijs, 2018). 
+
++ _Racionalidad del mérito_ (*self made man*): lo ganado por méritos propios (competencia en igualdad de condiciones). Apertura al mercado universitario en los 90 y la posibilidad de alcanzar puesto superiores sin importar las diferencias de origen (Dubet, 2011). 
+
++ _Contexto de socialización_: ambientes homogéneos pueden mantener a los individuos desconectados de fuentes de información  (Mijs, 2018). 
+
++ _Logro y margen de oportunidades_: En contextos universitarios habría mayores herramientas para comprender la sociedad, la experiencia de factores ajenos al mérito individual y el margen de oportunidades (Baer & Lambert, 1982; Goldthorpe,2003; Bucca, 2009; Araujo & Martuccelli, 2012). 
+
+---
+
+#Introducción 
+
+**Creencias sobre equidad y percepciones de mérito** 
+
++ _Creencias igualitarias_: la creencia de un estatus de igualdad entre individuos, independiente el esfuerzo y el talento, puede conducir a una percepción menor de aspectos meritorios y a una mayor percepción de discriminación frente a desventajas personales y grupales (McCoy & Major, 2007). 
+
++ _Ideología desafiante_: en un contexto de inestabilidad, corrupción y problemas distributivos asociados, los ciudadanos adoptarían ideologías igualitaristas ya que esas creencias podrían servir para desafiar las formas injustas de distribución de la riqueza económica existente (Smith & Matějů, 2012)
+
+---
+
+# Problema de investigación
+
+¿En qué medida el nivel educacional y las ideologías igualitarias se relaciona con las percepciones sobre el mérito para el contexto Chileno? 
+
+**Objetivos**:
+
+1. Identificar cómo se relaciona el nivel educacional alcanzado por los individuos con los niveles de mérito percibido para Chile. 
+
+2. Detallar el grado de asociación entre el nivel de igualitarismo con las percepciones de mérito para el caso chileno. 
+
+**Hipótesis**:
+
+H1: Formar parte de grupos con mayor logro educativo (educación universitaria) estará asociado de forma negativa con el mérito percibido. 
+
+H2: El nivel de igualitarismo de los individuos estará asociado de forma negativa con el mérito percibido. 
+
+---
+
+# Datos, variables y método
+
+**Datos:**
+
+- Encuesta de Opinión Pública Nº83 que incluye el módulo sobre inequidad social de *Internation Social Survey Programmme* para el año 2019.
+
+- Muestra representativa de la población chilena mayor de 18 años (urbana/rural). N=1380 observaciones.
+
+**Variable Dependiente:**
+
+<p align="center">
+
+![:scale 120%](images/tabla00.png)
+
+</p>
+
+---
+
+# Datos, variables y método
+
+**Variables Independientes** 
+
++ *Educación*: Sin tomar en cuenta las repeticiones de curso, ¿cuál es su nivel educacional? [9 valores: Sin estudios - Estudios de postgrado]   
+
++ *Igualitarismo*: ¿Es justo o injusto, correcto o incorrecto, que las personas con ingresos más altos puedan pagar una mejor educación para sus hijos que las personas con ingresos más bajos? [Escala de 5 valores: Muy injusto, definitivamente incorrecto - Muy justo, definitivamente correcto]
+
+
+**Método de análisis:**
+
++ Salir adelante: Análisis de regresión OLS ponderada.
+
++ Atribución pobreza/riqueza: Modelos de regresión logística binarias.
+
+---
+
+# Resultados: Descriptivos
+
+<p align="center">
+
+![:scale 75%](images/tabla01.png)
+
+</p>
+
+---
+
+# Resultados: Descriptivos (continuación)
+
+<p align="center">
+
+![:scale 58%](images/tabla02.png)
+
+</p>
+
+---
+
+# Resultados: Regresión OLS
+
+![:scale 95%](images/fig01.png)
+
+---
+
+# Resultados: Regresión Logística Binaria
+
+![:scale 95%](images/fig02.png)
+
+---
+
+# Resultados: Regresión Logística Binaria
+
+![:scale 95%](images/fig03.png)
+
+---
+
+#Cconclusiones y discusión
+
+- Los resultados muestran que el nivel educativo alcanzado no están asociado con percepciones sobre el mérito, sino que priman otros aspectos como mayores niveles de ingreso, ideologías igualitarias y políticas. 
+
+- El igualitarismo actúa fuertemente en el contexto nacional a la hora de evaluar resultados sociales observados: riqueza / pobreza. Pero no de la misma manera a la hora de evaluar expectativas futuras.
+
+- Mayores deciles de ingresos presentan mayor atribución a cuestiones estructurales a la hora de explicar el éxto económico, lo que no ocurre para evaluar la pobreza. 
+
+---
+
+#Futuras investigaciones
+
+- Indagar la infuencia de espacios de socialización más específicos (familia y la escuela) en la construcción de ideas y marcos normativos meritocráticos cuando estos dispositivos están operando.
+
+- Observar los (no)cambios que puden experimentar las percepciones sobre el mérito en contextos de crisis social. 
+
+- Avanzar hacia un análisis empírico sobre el rol que estas percepciones meritocráticas pueden tener en la opinión pública, sobre todo en respaldo de políticas redistributivas. 
+
+---
+class: center, middle
+
+# ¡Agradecimientos!
+
+Slides created via the R package [**xaringan**](https://github.com/yihui/xaringan).
+
+The chakra comes from [remark.js](https://remarkjs.com), [**knitr**](http://yihui.name/knitr), and [R Markdown](https://rmarkdown.rstudio.com).

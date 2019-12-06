@@ -20,16 +20,6 @@ output:
     seal: false # esto omite title slide automática
 ---
 
-class: inverse, center, middle
-
-# Meritocracia y Redistribución en América Latina
-
-***
-[FONDECYT N°1160921 - Lima 2019](https://www.researchgate.net/project/The-moral-economy-of-meritocracy-and-redistributive-preferences)
-
----
-class: inverse, bottom, right
-
 ```{r setup, include=FALSE, cache = FALSE}
 require("knitr")
 options(htmltools.dir.version = FALSE)
@@ -42,6 +32,508 @@ bib <- ReadBib("meritocracy.bib", check = FALSE)
 rmarkdown::render('ispp2019lisboa.Rmd', 'xaringan::moon_reader')
 ```
 
+
+class: inverse, center, middle
+
+# Meritocracia y Redistribución en América Latina
+
+***
+[FONDECYT N°1160921 - ALAS Lima 2019](https://www.researchgate.net/project/The-moral-economy-of-meritocracy-and-redistributive-preferences)
+
+<br>
+
+## Coordinadores: Juan Carlos Castillo & Julio Iturra
+
+---
+class: roja, middle, center
+
+# CONTEXTO
+
+---
+## Contexto de investigación
+
+- Proyecto **La economía moral de la meritocracia y las preferencias redistributivas** - FONDECYT grant 1160921 
+
+--
+  - Juan Castillo (UCH), Luis Maldonado (UC) & Jorge Atria (UDP)
+
+  - 2016-2020
+
+  - Estudios cualitativos (entrevistas y grupos focales)
+
+  - Análisis de datos secundarios (ISSP)
+
+  - Experimentos de encuestas
+
+---
+## Algunos resultados - artículos
+
+.small[
+
+- Maldonado,L., Olivos, F. Azar, A. Castillo, J. & Atria, J.(2019) Risk exposure, humanitarianism and willingness to pay for universal healthcare: A cross-national analysis of 28 countries. _Social Justice Research_
+
+- Frei, R., Castillo, JC., Henríquez, R. & Suárez, J. (2018 - Forthcoming 2020) “¿Fruto del esfuerzo?”: los cambios en las atribuciones sobre pobreza y riqueza en Chile entre 1996 y 2015. _Latin American Research Review_.
+
+- Castillo, JC. Olivos. F. & Azar, A. (2018) On the justice of pensions: A factorial survey approach (with Francisco Olivos & Ariel Azar). Accepted in Social Science Quarterly DOI: 10.1111/ssqu.12539.
+
+- Castillo, JC. & Torres, A. , Atria, J & Maldonado, L. (2018) Meritocracia y desigualdad económica: Percepciones, preferencias e implicancias. Forthcoming in Revista Internacional de Sociología
+
+- Castillo, JC & Rivera,M. (2018) Poverty and wealth attributions: A second order confirmatory factor analysis model. Forthcoming in Psykhe
+
+- Azar, A., Maldonado, L., Castillo, JC & Atria, J. (2018) “Income, Egalitarianism, and Attitudes Towards Healthcare Policy: A Study on Public Attitudes in 29 Countries” Public Health 148:59-69
+
+- Atria, J., Amenábar, J., Sanchez, J., Castillo, JC & Cociña, M. (2017) Investigando a la élite económica: Lecciones y desafíos a partir del caso de Chile. Cultura, Hombre y Sociedad 27(2)5-36 (Scielo)
+
+---
+
+## En elaboración
+
+- García-Sánchez & Castillo, JC.- Taking from the rich or giving to the poor: The two faces of support for redistribution
+
+- Franetovic & Castillo, JC - Redistributive preferences in unequal contexts: Changes in Latin America between 2008 and 2016
+
+- Beck & Castillo, JC - About the stability of meritocratic beliefs: A longitudinal measurement invariance approach.
+]
+
+---
+## Algunos resultados - tesis
+
+.small[
+- Plaza, A. (2018) Movilidad social y preferencias por la redistribución: Efectos individuales y contextuales. Magíster en Sociología, P. Universidad Católica de Chile.
+
+- Franetovic, G. (2018) Desigualdad, desarrollo económico y preferencias redistributivas en América Latina. Magíster en Sociología, P. Universidad Católica de Chile.
+
+- Muñoz, E. (2018) Evaluaciones de justicia distributiva sobre las pensiones de vejez en Chile. Magíster en Sociología, P. Universidad Católica de Chile.
+
+- Sandoval, D. (2017) Merezco estar aquí: Un estudio multinivel sobre la relación entre meritocracia y educación. Magíster en Sociología, P. Universidad Católica de Chile.
+
+- Montedónico, S. (2017) Contexto Polı́tico Institucional y Preferencias Redistributivas en América Latina. Magíster en Sociología, P. Universidad Católica de Chile.
+
+- Beck, G. - Redes de contacto extensas y la justificación de la desigualdad social en Chile.
+
+- Iturra, J. - Inconsistencia de estatus social y
+percepción de meritocracia: el caso de Chile
+
+- Rojas, S. La dimensión subjetiva de la desigualdad de género en ingresos: factores asociados a percepción de salarios y preferencias de justicia
+]
+
+---
+
+## ... más información
+
+
+- En el sitio web de nuestro proyecto en Researchgate: [https://www.researchgate.net/project/The-moral-economy-of-meritocracy-and-redistributive-preferences](https://www.researchgate.net/project/The-moral-economy-of-meritocracy-and-redistributive-preferences)
+
+- en [jc-castillo.com](https://jc-castillo.com)
+
+---
+class: inverse
+
+# PONENCIAS
+
+<br>
+.right[
+*José Conejeros* - Educación, valores y percepciones sobre el mérito: Un mirada al caso chileno
+
+*Matías Gómez* - Riesgo y preferencias por redistribución
+
+*Julio Iturra, Catalina Rufs* - Desigualdad económica y su influencia sobre percepción de diferencias de ingreso legítimas
+
+*Juan Carlos Castillo & Francisco Meneses* - Conocimiento sobre desigualdad y pobreza: ¿Influye en la percepción de oportunidades y meritocracia? Un experimento de encuesta 
+]
+
+
+
+
+
+---
+class: middle, right, inverse
+# Educación, valores y percepciones sobre el mérito: Un mirada al caso chileno
+***
+## [José Daniel Conejeros $^{1,2}$]()
+### $^{1}$ Centro de Estudios de Conflicto y Cohesión Social <br> $^2$ Pontificia Universidad Católica de Chile
+
+
+
+---
+# Introducción
+
+**El mérito**
+
+.medium[- Conjugación entre talento y esfuerzo (Young, 1958).
+
+- Criterio de asignación de los sujetos a posiciones sociales (Yair en Ritzer, 2007)
+]
+
+**Percepciones sobre el mérito**
+
+.medium[- Valorización del esfuerzo y el trabajo, junto a su respectiva recompensa monetaria y/o de movilidad social (Reynolds y Xian, 2014;  Roex, Huijts & Sieben, 2019; Mijs, 2019)
+
+- Convicción generalizada en el valor del esfuerzo personal como criterio de cohesión en estructura social de posiciones asimétricas (McCoy & Major, 2007). 
+
+- No es solo un principio de justificación y autovaloración, sino que se articula como una expectativa concreta con la que se evalúa la justicia en la sociedad (Sen, 2000; Araujo & Martuccelli, 2012).
+]
+---
+
+# Introducción
+
+**Educación y percepciones de mérito** 
+
+.medium[+ _Educación e ideología_: el mérito como un horizonte normativo para la compresión del mundo y como pauta de acción (Bourdieu & Passeron, 1996). Creer en un mundo justo (Mijs, 2018). 
+
++ _Racionalidad del mérito_ (*self made man*): lo ganado por méritos propios (competencia en igualdad de condiciones). Apertura al mercado universitario en los 90 y la posibilidad de alcanzar puesto superiores sin importar las diferencias de origen (Dubet, 2011). 
+
++ _Contexto de socialización_: ambientes homogéneos pueden mantener a los individuos desconectados de fuentes de información  (Mijs, 2018). 
+
++ _Logro y margen de oportunidades_: En contextos universitarios habría mayores herramientas para comprender la sociedad, la experiencia de factores ajenos al mérito individual y el margen de oportunidades (Baer & Lambert, 1982; Goldthorpe,2003; Bucca, 2009; Araujo & Martuccelli, 2012). 
+]
+---
+
+#Introducción 
+
+**Creencias sobre equidad y percepciones de mérito** 
+
++ _Creencias igualitarias_: la creencia de un estatus de igualdad entre individuos, independiente el esfuerzo y el talento, puede conducir a una percepción menor de aspectos meritorios y a una mayor percepción de discriminación frente a desventajas personales y grupales (McCoy & Major, 2007). 
+
++ _Ideología desafiante_: en un contexto de inestabilidad, corrupción y problemas distributivos asociados, los ciudadanos adoptarían ideologías igualitaristas ya que esas creencias podrían servir para desafiar las formas injustas de distribución de la riqueza económica existente (Smith & Matějů, 2012)
+
+---
+
+# Problema de investigación
+
+.medium[¿En qué medida el nivel educacional y las ideologías igualitarias se relaciona con las percepciones sobre el mérito para el contexto Chileno? 
+
+**Objetivos**:
+
+1. Identificar cómo se relaciona el nivel educacional alcanzado por los individuos con los niveles de mérito percibido para Chile. 
+
+2. Detallar el grado de asociación entre el nivel de igualitarismo con las percepciones de mérito para el caso chileno. 
+
+**Hipótesis**:
+
+H1: Formar parte de grupos con mayor logro educativo (educación universitaria) estará asociado de forma negativa con el mérito percibido. 
+
+H2: El nivel de igualitarismo de los individuos estará asociado de forma negativa con el mérito percibido. ]
+
+---
+
+# Datos, variables y método
+
+**Datos:**
+
+.medium[- Encuesta de Opinión Pública Nº83 que incluye el módulo sobre inequidad social de *Internation Social Survey Programmme* para el año 2019.
+
+- Muestra representativa de la población chilena mayor de 18 años (urbana/rural). N=1380 observaciones.
+]
+**Variable Dependiente:**
+
+<p align="center">
+
+![:scale 1000%](images/tabla00.png)
+
+</p>
+
+---
+
+# Datos, variables y método
+
+**Variables Independientes** 
+
++ *Educación*: Sin tomar en cuenta las repeticiones de curso, ¿cuál es su nivel educacional? [9 valores: Sin estudios - Estudios de postgrado]   
+
++ *Igualitarismo*: ¿Es justo o injusto, correcto o incorrecto, que las personas con ingresos más altos puedan pagar una mejor educación para sus hijos que las personas con ingresos más bajos? [Escala de 5 valores: Muy injusto, definitivamente incorrecto - Muy justo, definitivamente correcto]
+
+
+**Método de análisis:**
+
++ Salir adelante: Análisis de regresión OLS ponderada.
+
++ Atribución pobreza/riqueza: Modelos de regresión logística binarias.
+
+---
+
+# Resultados: Descriptivos
+
+<p align="center">
+
+![:scale 70%](images/tabla01.png)
+
+</p>
+
+---
+
+# Resultados: Descriptivos (continuación)
+
+<p align="center">
+
+![:scale 55%](images/tabla02.png)
+
+</p>
+
+---
+
+# Resultados: Regresión OLS
+
+![:scale 90%](images/fig01.png)
+
+---
+
+# Resultados: Regresión Logística Binaria
+
+![:scale 90%](images/fig02.png)
+
+---
+class: center
+# Resultados: Regresión Logística Binaria
+
+![:scale 90%](images/fig03.png)
+
+---
+
+# Conclusiones y discusión
+
+- Los resultados muestran que el nivel educativo alcanzado no están asociado con percepciones sobre el mérito, sino que priman otros aspectos como mayores niveles de ingreso, ideologías igualitarias y políticas. 
+
+- El igualitarismo actúa fuertemente en el contexto nacional a la hora de evaluar resultados sociales observados: riqueza / pobreza. Pero no de la misma manera a la hora de evaluar expectativas futuras.
+
+- Mayores deciles de ingresos presentan mayor atribución a cuestiones estructurales a la hora de explicar el éxto económico, lo que no ocurre para evaluar la pobreza. 
+
+---
+
+# Futuras investigaciones
+
+- Indagar la infuencia de espacios de socialización más específicos (familia y la escuela) en la construcción de ideas y marcos normativos meritocráticos cuando estos dispositivos están operando.
+
+- Observar los (no)cambios que puden experimentar las percepciones sobre el mérito en contextos de crisis social. 
+
+- Avanzar hacia un análisis empírico sobre el rol que estas percepciones meritocráticas pueden tener en la opinión pública, sobre todo en respaldo de políticas redistributivas. 
+
+
+---
+class: inverse
+
+## PONENCIAS
+
+<br>
+.right[
+*José Conejeros* - Educación, valores y percepciones sobre el mérito: Un mirada al caso chileno
+
+*Matías Gómez* - Riesgo y preferencias por redistribución
+
+*Julio Iturra, Catalina Rufs* - Desigualdad económica y su influencia sobre percepción de diferencias de ingreso legítimas
+
+*Juan Carlos Castillo & Francisco Meneses* - Conocimiento sobre desigualdad y pobreza: ¿Influye en la percepción de oportunidades y meritocracia? Un experimento de encuesta 
+]
+
+---
+class: middle, right, inverse
+# Riesgo y preferencias por redistribución
+***
+## [Matías Gómez $^{1,2}$]()
+### $^{1}$ Centro de Estudios de Conflicto y Cohesión Social <br> $^2$ Pontificia Universidad Católica de Chile
+
+
+---
+class: inverse
+
+# PONENCIAS
+
+<br>
+.right[
+*José Conejeros* - Educación, valores y percepciones sobre el mérito: Un mirada al caso chileno
+
+*Matías Gómez* - Riesgo y preferencias por redistribución
+
+*Julio Iturra, Catalina Rufs* - Desigualdad económica y su influencia sobre percepción de diferencias de ingreso legítimas
+
+*Juan Carlos Castillo & Francisco Meneses* - Conocimiento sobre desigualdad y pobreza: ¿Influye en la percepción de oportunidades y meritocracia? Un experimento de encuesta 
+]
+
+
+
+---
+class: inverse, right
+# Desigualdad económica y su influencia sobre la percepción de diferencias de ingreso legítimas
+***
+## [Julio César Iturra $^1$  Catalina Rufs $^2$ <br>  Juan Carlos Castillo $^{1,3}$]()
+### $^{1}$ Centro de Estudios de Conflicto y Cohesión Social <br> $^2$ Pontificia Universidad Católica de Chile  <br> $^3$ Universidad de Chile
+
+---
+### Experimento Kris-Stella Trump (2017)
+
+- ¿Por qué la preocupación pública por la desigualdad y demanda por políticas redistributivas no crece en la misma medida que la desigualdad de ingresos?
+  - Complementario a la teoría económica del interés-propio (Meltzer & Richard ,1981)
+  - A mayor desigualdad percibida, mayor desigualdad legitimada
+  
+* Trump pesquisó esta relación a través de un diseño experimental, testeando el efecto de la información sobre desigualdad económica en la legitimación de diferencias salariales.  
+
+---
+### Experimento Kris-Stella Trump (2017)
+
+**Supuestos teóricos:**
+- Hipótesis de ajuste
+  - Sesgo de *status quo*: ajuste racional y efecto ancla.
+  - Teoría de la justificación del sistema
+- Se llevó a cabo un experimento con tres condiciones para demostrar empíricamente:
+
+ *<center> ¿Influyen las percepciones de desigualdad existentes en las percepciones de desigualdad legítima? </center>* 
+
+---
+## Experimento Kris-Stella Trump
+
+
+$$D_1 = \ln\Bigg(\frac{\text{Máximo salario recomendado}}{\text{Mínimo salario recomendado}} \Bigg)$$
+
+Empleando el Indice de Justicia (Jasso, 1999), se elaboró una medida basada en el salario **máximo** y **mínimo** mencionado por cada individuo en la pregunta sobre **cuánto debería ganar cada ocupación**.
+
+
+```{r, echo=FALSE, fig.align='center', message=FALSE, warning=FALSE, out.width="75%"}
+knitr::include_graphics('images/Resultados-Trump.png') 
+```
+
+---
+class: center, middle, inverse
+
+***
+# Diseño del experimento
+***
+
+---
+## Variable dependiente: Desigualdad recomendada
+
+```{r, echo=FALSE, fig.align='center', message=FALSE, warning=FALSE, out.width="75%"}
+knitr::include_graphics('images/depvar1.png') 
+```
+
+$$D_2  = \ln\Bigg(\frac{\text{Salario Gerente}}{\text{Salario Obrero}}\Bigg)$$
+
+---
+#Tratamientos
+
+```{r, echo=FALSE, fig.align='center', message=FALSE, warning=FALSE, out.width="75%", fig.cap="<strong>Fig. 1:</strong> Lista de ingresos por ocupación"}
+knitr::include_graphics('images/treat1b.png') 
+```
+
+```{r, echo=FALSE, fig.align='center', message=FALSE, warning=FALSE, out.width="80%", fig.cap= "<strong>Fig. 2:</strong> Párrafo reforma educacional"}
+
+knitr::include_graphics('images/treat2.png') 
+```
+
+---
+# Diseño
+
+En el contexto del estudio "Creencias políticas y sociales" (*n* = 732), se implementó un diseño experimental a través de encuestas presenciales en población urbana de la Región Metropolitana. 
+
+* 62% de mujeres. Edad promedio 44 años
+* **Educación**: Primaria incompleta o menos 9.3%, Primaria 11.2%, Secundaria 45.8%, Técnica 15.6% y Superior 18%. 
+
+
+Se asignaron aleatoriamente  tres **condiciones tratamiento**:
+
+- Grupo A: Párrafo y Lista de ingresos
+- Grupo B: Párrafo
+- Grupo C: Lista de ingresos
+- Grupo D: Control (Sin información)
+
+
+<!-- <table style="text-align:center"><tr><td colspan="5" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left"> </td><td>Media</td><td>DS</td><td>Min</td><td>Máx</td></tr> -->
+<!-- <tr><td colspan="5" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left">Log(Máx/Min) reco.</td><td>2.60</td><td>0.97</td><td>0.00</td><td>6.31</td></tr> -->
+<!-- <tr><td style="text-align:left">Log(Gerente/Obrero) reco.</td><td>2.00</td><td>1.15</td><td>-3.40</td><td>6.31</td></tr> -->
+<!-- <tr><td style="text-align:left">Log(Gerente/Obrero) perc.</td><td>2.84</td><td>1.19</td><td>-3.06</td><td>7.60</td></tr> -->
+<!-- <tr><td colspan="5" style="border-bottom: 1px solid black"></td></tr></table> -->
+
+
+---
+class: middle, center, inverse
+
+***
+# Resultados
+***
+---
+class:middle,center
+```{r, echo=FALSE, fig.align='center', message=FALSE, warning=FALSE, out.width="120%"}
+
+knitr::include_graphics('images/barplot1.png') 
+
+```
+*Nota*: Comparación en base valores predichos de modelos de regresión OLS. 
+---
+
+class:middle,center
+```{r, echo=FALSE, fig.align='center', message=FALSE, warning=FALSE, out.width="120%"}
+
+knitr::include_graphics('images/barplot2.png') 
+
+```
+*Nota*: Comparación en base valores predichos de modelos de regresión OLS.
+
+---
+class:middle, center
+```{r, echo=FALSE, fig.align='center', message=FALSE, warning=FALSE, out.width="110%", fig.cap="<strong>Tabla 1:</strong> Modelos de regresión para Desigualdad recomendada"}
+
+knitr::include_graphics('images/table1.png') 
+
+```
+
+---
+## Conclusiones
+
+* La evidencia muestra que la "hipótesis de ajuste" se cumple para el contexto chileno.
+
+* El tener conocimiento sobre la desigualdad de ingresos tiene como consecuencia que las personas legitimen mayores brechas salariales.
+
+* Las diferencias legítimas entre ocupaciones de bajo y alto estatus son suseptibles de ser afectadas por el nivel de conocimiento que las personas tienen sobre la desigualdad. 
+
+* El efecto del tratamiento se mantiene independiente de la percepción de desigualdad y el estatus social de los individuos.
+
+---
+## Agenda futura
+
+- Replicación del experimento con una muestra de mayor extensión y representatividad.
+    
+    * Pre-registro del experimento en el [Open Science Framework](www.osf.io).
+
+    * Opción de realizar un muestreo por cuotas a través de internet (Zhang et al.,2018).
+    
+    * Estudio comparado con otros países de América Latina.
+    
+- Explorar la relación entre el grado de información sobre desigualdad y preferencias redistributivas. 
+
+---
+
+## Referencias
+
+[1] Jasso, G. (1999). How Much Injustice is There in the World? Two New Justice Indexes. American Sociological
+Review, 64(1):133–168.
+
+[2] Meltzer, A., & Richard, S. (1981). A Rational Theory of the Size of Government. Journal of Political Economy, 89(5), 914-927. Retrieved from http://www.jstor.org/stable/1830813
+
+[3] Trump, K. (2018). Income Inequality Influences Perceptions of Legitimate Income Differences. British Journal of Political Science, 48(4), 929-952.
+doi:10.1017/S0007123416000326
+
+[4] Zhang, B., Mildenberger, M., Howe, P. D., Marlon, J., Rosenthal, S. A., y Leiserowitz, A. (2018). Quota sampling using Facebook advertisements. Political Science Research and Methods, pages 1–7.
+
+
+---
+class: inverse
+
+# PONENCIAS
+
+<br>
+.right[
+*José Conejeros* - Educación, valores y percepciones sobre el mérito: Un mirada al caso chileno
+
+*Matías Gómez* - Riesgo y preferencias por redistribución
+
+*Julio Iturra, Catalina Rufs* - Desigualdad económica y su influencia sobre percepción de diferencias de ingreso legítimas
+
+*Juan Carlos Castillo & Francisco Meneses* - Conocimiento sobre desigualdad y pobreza: ¿Influye en la percepción de oportunidades y meritocracia? Un experimento de encuesta 
+]
+
+
+
+---
+class: inverse, bottom, right
 
 <!---
 About macros.js: permite escalar las imágenes como [:scale 50%](path to image), hay si que grabar ese archivo js en el directorio.
@@ -70,27 +562,6 @@ class: animated, fadeIn
 class: roja, middle, center, slideInRight
 
 # Antecedentes
-
----
-## Contexto de investigación
-
-- FONDECYT grant 1160921: **La economía moral de la meritocracia y las preferencias redistributivas** (Juan Castillo, Luis Maldonado & Jorge Atria)
-
-
-
---
-
-  - 2016-2020
-
-  - Estudios cualitativos (entrevistas y grupos focales)
-
-  - Análisis de datos secundarios (ISSP)
-
-  - Encuesta de experimentos
-
---
-
-- Más información y actualizaciones en el sitio web de nuestro proyecto en Researchgate: [https://www.researchgate.net/project/The-moral-economy-of-meritocracy-and-redistributive-preferences](https://www.researchgate.net/project/The-moral-economy-of-meritocracy-and-redistributive-preferences)
 
 ---
 ## Contexto del país
@@ -385,348 +856,16 @@ PrintBibliography(bib)
 ```
 ]
 ---
-class: inverse, center
+class: inverse, center, middle
 
-##  ¿La información sobre desigualdad y pobreza influye en las creencias de oportunidad?
-<hr>
-### Luis Maldonado, _Pontificia Universidad Católica de Chile_ - lmaldona@uc.cl
-### Juan Carlos Castillo, _Universidad de Chile & COES_
-### (Leslie McCall, _Stone Center of Economic Inequality_)
-
-### ... ... también con la contribución de nuestros asistentes de investigación Julio Iturra y Francisco Meneses
-
----
-class: middle, right, inverse
-# Educación, valores y percepciones sobre el mérito: Un mirada al caso chileno
-***
-## [José Daniel Conejeros $^{1,2}$]()
-### $^{1}$ Centro de Estudios de Conflicto y Cohesión Social <br> $^2$ Pontificia Universidad Católica de Chile
-
-
-
----
-# Introducción
-
-**El mérito**
-
-.medium[- Conjugación entre talento y esfuerzo (Young, 1958).
-
-- Criterio de asignación de los sujetos a posiciones sociales (Yair en Ritzer, 2007)
-]
-
-**Percepciones sobre el mérito**
-
-.medium[- Valorización del esfuerzo y el trabajo, junto a su respectiva recompensa monetaria y/o de movilidad social (Reynolds y Xian, 2014;  Roex, Huijts & Sieben, 2019; Mijs, 2019)
-
-- Convicción generalizada en el valor del esfuerzo personal como criterio de cohesión en estructura social de posiciones asimétricas (McCoy & Major, 2007). 
-
-- No es solo un principio de justificación y autovaloración, sino que se articula como una expectativa concreta con la que se evalúa la justicia en la sociedad (Sen, 2000; Araujo & Martuccelli, 2012).
-]
----
-
-# Introducción
-
-**Educación y percepciones de mérito** 
-
-.medium[+ _Educación e ideología_: el mérito como un horizonte normativo para la compresión del mundo y como pauta de acción (Bourdieu & Passeron, 1996). Creer en un mundo justo (Mijs, 2018). 
-
-+ _Racionalidad del mérito_ (*self made man*): lo ganado por méritos propios (competencia en igualdad de condiciones). Apertura al mercado universitario en los 90 y la posibilidad de alcanzar puesto superiores sin importar las diferencias de origen (Dubet, 2011). 
-
-+ _Contexto de socialización_: ambientes homogéneos pueden mantener a los individuos desconectados de fuentes de información  (Mijs, 2018). 
-
-+ _Logro y margen de oportunidades_: En contextos universitarios habría mayores herramientas para comprender la sociedad, la experiencia de factores ajenos al mérito individual y el margen de oportunidades (Baer & Lambert, 1982; Goldthorpe,2003; Bucca, 2009; Araujo & Martuccelli, 2012). 
-]
----
-
-#Introducción 
-
-**Creencias sobre equidad y percepciones de mérito** 
-
-+ _Creencias igualitarias_: la creencia de un estatus de igualdad entre individuos, independiente el esfuerzo y el talento, puede conducir a una percepción menor de aspectos meritorios y a una mayor percepción de discriminación frente a desventajas personales y grupales (McCoy & Major, 2007). 
-
-+ _Ideología desafiante_: en un contexto de inestabilidad, corrupción y problemas distributivos asociados, los ciudadanos adoptarían ideologías igualitaristas ya que esas creencias podrían servir para desafiar las formas injustas de distribución de la riqueza económica existente (Smith & Matějů, 2012)
-
----
-
-# Problema de investigación
-
-.medium[¿En qué medida el nivel educacional y las ideologías igualitarias se relaciona con las percepciones sobre el mérito para el contexto Chileno? 
-
-**Objetivos**:
-
-1. Identificar cómo se relaciona el nivel educacional alcanzado por los individuos con los niveles de mérito percibido para Chile. 
-
-2. Detallar el grado de asociación entre el nivel de igualitarismo con las percepciones de mérito para el caso chileno. 
-
-**Hipótesis**:
-
-H1: Formar parte de grupos con mayor logro educativo (educación universitaria) estará asociado de forma negativa con el mérito percibido. 
-
-H2: El nivel de igualitarismo de los individuos estará asociado de forma negativa con el mérito percibido. ]
-
----
-
-# Datos, variables y método
-
-**Datos:**
-
-.medium[- Encuesta de Opinión Pública Nº83 que incluye el módulo sobre inequidad social de *Internation Social Survey Programmme* para el año 2019.
-
-- Muestra representativa de la población chilena mayor de 18 años (urbana/rural). N=1380 observaciones.
-]
-**Variable Dependiente:**
-
-<p align="center">
-
-![:scale 1000%](images/tabla00.png)
-
-</p>
-
----
-
-# Datos, variables y método
-
-**Variables Independientes** 
-
-+ *Educación*: Sin tomar en cuenta las repeticiones de curso, ¿cuál es su nivel educacional? [9 valores: Sin estudios - Estudios de postgrado]   
-
-+ *Igualitarismo*: ¿Es justo o injusto, correcto o incorrecto, que las personas con ingresos más altos puedan pagar una mejor educación para sus hijos que las personas con ingresos más bajos? [Escala de 5 valores: Muy injusto, definitivamente incorrecto - Muy justo, definitivamente correcto]
-
-
-**Método de análisis:**
-
-+ Salir adelante: Análisis de regresión OLS ponderada.
-
-+ Atribución pobreza/riqueza: Modelos de regresión logística binarias.
-
----
-
-# Resultados: Descriptivos
-
-<p align="center">
-
-![:scale 70%](images/tabla01.png)
-
-</p>
-
----
-
-# Resultados: Descriptivos (continuación)
-
-<p align="center">
-
-![:scale 55%](images/tabla02.png)
-
-</p>
-
----
-
-# Resultados: Regresión OLS
-
-![:scale 90%](images/fig01.png)
-
----
-
-# Resultados: Regresión Logística Binaria
-
-![:scale 90%](images/fig02.png)
-
----
-class: center
-# Resultados: Regresión Logística Binaria
-
-![:scale 90%](images/fig03.png)
-
----
-
-# Conclusiones y discusión
-
-- Los resultados muestran que el nivel educativo alcanzado no están asociado con percepciones sobre el mérito, sino que priman otros aspectos como mayores niveles de ingreso, ideologías igualitarias y políticas. 
-
-- El igualitarismo actúa fuertemente en el contexto nacional a la hora de evaluar resultados sociales observados: riqueza / pobreza. Pero no de la misma manera a la hora de evaluar expectativas futuras.
-
-- Mayores deciles de ingresos presentan mayor atribución a cuestiones estructurales a la hora de explicar el éxto económico, lo que no ocurre para evaluar la pobreza. 
-
----
-
-# Futuras investigaciones
-
-- Indagar la infuencia de espacios de socialización más específicos (familia y la escuela) en la construcción de ideas y marcos normativos meritocráticos cuando estos dispositivos están operando.
-
-- Observar los (no)cambios que puden experimentar las percepciones sobre el mérito en contextos de crisis social. 
-
-- Avanzar hacia un análisis empírico sobre el rol que estas percepciones meritocráticas pueden tener en la opinión pública, sobre todo en respaldo de políticas redistributivas. 
-
-
----
-class: middle, right, inverse
-# Riesgo y preferencias por redistribución
-***
-## [Matías Gómez $^{1,2}$]()
-### $^{1}$ Centro de Estudios de Conflicto y Cohesión Social <br> $^2$ Pontificia Universidad Católica de Chile
-
----
-class: inverse, right
-# Desigualdad económica y su influencia sobre la percepción de diferencias de ingreso legítimas
-***
-## [Julio César Iturra $^1$  Catalina Rufs $^2$ <br>  Juan Carlos Castillo $^{1,3}$]()
-### $^{1}$ Centro de Estudios de Conflicto y Cohesión Social <br> $^2$ Pontificia Universidad Católica de Chile  <br> $^3$ Universidad de Chile
-
----
-### Experimento Kris-Stella Trump (2017)
-
-- ¿Por qué la preocupación pública por la desigualdad y demanda por políticas redistributivas no crece en la misma medida que la desigualdad de ingresos?
-  - Complementario a la teoría económica del interés-propio (Meltzer & Richard ,1981)
-  - A mayor desigualdad percibida, mayor desigualdad legitimada
-  
-* Trump pesquisó esta relación a través de un diseño experimental, testeando el efecto de la información sobre desigualdad económica en la legitimación de diferencias salariales.  
-
----
-### Experimento Kris-Stella Trump (2017)
-
-**Supuestos teóricos:**
-- Hipótesis de ajuste
-  - Sesgo de *status quo*: ajuste racional y efecto ancla.
-  - Teoría de la justificación del sistema
-- Se llevó a cabo un experimento con tres condiciones para demostrar empíricamente:
-
- *<center> ¿Influyen las percepciones de desigualdad existentes en las percepciones de desigualdad legítima? </center>* 
-
----
-## Experimento Kris-Stella Trump
-
-
-$$D_1 = \ln\Bigg(\frac{\text{Máximo salario recomendado}}{\text{Mínimo salario recomendado}} \Bigg)$$
-
-Empleando el Indice de Justicia (Jasso, 1999), se elaboró una medida basada en el salario **máximo** y **mínimo** mencionado por cada individuo en la pregunta sobre **cuánto debería ganar cada ocupación**.
-
-
-```{r, echo=FALSE, fig.align='center', message=FALSE, warning=FALSE, out.width="75%"}
-knitr::include_graphics('images/Resultados-Trump.png') 
-```
-
----
-class: center, middle, inverse
+# Meritocracia y Redistribución en América Latina
 
 ***
-# Diseño del experimento
-***
+[FONDECYT N°1160921 - ALAS Lima 2019](https://www.researchgate.net/project/The-moral-economy-of-meritocracy-and-redistributive-preferences)
 
----
-## Variable dependiente: Desigualdad recomendada
+<br>
 
-```{r, echo=FALSE, fig.align='center', message=FALSE, warning=FALSE, out.width="75%"}
-knitr::include_graphics('images/depvar1.png') 
-```
-
-$$D_2  = \ln\Bigg(\frac{\text{Salario Gerente}}{\text{Salario Obrero}}\Bigg)$$
-
----
-#Tratamientos
-
-```{r, echo=FALSE, fig.align='center', message=FALSE, warning=FALSE, out.width="75%", fig.cap="<strong>Fig. 1:</strong> Lista de ingresos por ocupación"}
-knitr::include_graphics('images/treat1b.png') 
-```
-
-```{r, echo=FALSE, fig.align='center', message=FALSE, warning=FALSE, out.width="80%", fig.cap= "<strong>Fig. 2:</strong> Párrafo reforma educacional"}
-
-knitr::include_graphics('images/treat2.png') 
-```
-
----
-# Diseño
-
-En el contexto del estudio "Creencias políticas y sociales" (*n* = 732), se implementó un diseño experimental a través de encuestas presenciales en población urbana de la Región Metropolitana. 
-
-* 62% de mujeres. Edad promedio 44 años
-* **Educación**: Primaria incompleta o menos 9.3%, Primaria 11.2%, Secundaria 45.8%, Técnica 15.6% y Superior 18%. 
-
-
-Se asignaron aleatoriamente  tres **condiciones tratamiento**:
-
-- Grupo A: Párrafo y Lista de ingresos
-- Grupo B: Párrafo
-- Grupo C: Lista de ingresos
-- Grupo D: Control (Sin información)
-
-
-<!-- <table style="text-align:center"><tr><td colspan="5" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left"> </td><td>Media</td><td>DS</td><td>Min</td><td>Máx</td></tr> -->
-<!-- <tr><td colspan="5" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left">Log(Máx/Min) reco.</td><td>2.60</td><td>0.97</td><td>0.00</td><td>6.31</td></tr> -->
-<!-- <tr><td style="text-align:left">Log(Gerente/Obrero) reco.</td><td>2.00</td><td>1.15</td><td>-3.40</td><td>6.31</td></tr> -->
-<!-- <tr><td style="text-align:left">Log(Gerente/Obrero) perc.</td><td>2.84</td><td>1.19</td><td>-3.06</td><td>7.60</td></tr> -->
-<!-- <tr><td colspan="5" style="border-bottom: 1px solid black"></td></tr></table> -->
-
-
----
-class: middle, center, inverse
-
-***
-# Resultados
-***
----
-class:middle,center
-```{r, echo=FALSE, fig.align='center', message=FALSE, warning=FALSE, out.width="120%"}
-
-knitr::include_graphics('images/barplot1.png') 
-
-```
-*Nota*: Comparación en base valores predichos de modelos de regresión OLS. 
----
-
-class:middle,center
-```{r, echo=FALSE, fig.align='center', message=FALSE, warning=FALSE, out.width="120%"}
-
-knitr::include_graphics('images/barplot2.png') 
-
-```
-*Nota*: Comparación en base valores predichos de modelos de regresión OLS.
-
----
-class:middle, center
-```{r, echo=FALSE, fig.align='center', message=FALSE, warning=FALSE, out.width="110%", fig.cap="<strong>Tabla 1:</strong> Modelos de regresión para Desigualdad recomendada"}
-
-knitr::include_graphics('images/table1.png') 
-
-```
-
----
-## Conclusiones
-
-* La evidencia muestra que la "hipótesis de ajuste" se cumple para el contexto chileno.
-
-* El tener conocimiento sobre la desigualdad de ingresos tiene como consecuencia que las personas legitimen mayores brechas salariales.
-
-* Las diferencias legítimas entre ocupaciones de bajo y alto estatus son suseptibles de ser afectadas por el nivel de conocimiento que las personas tienen sobre la desigualdad. 
-
-* El efecto del tratamiento se mantiene independiente de la percepción de desigualdad y el estatus social de los individuos.
-
----
-## Agenda futura
-
-- Replicación del experimento con una muestra de mayor extensión y representatividad.
-    
-    * Pre-registro del experimento en el [Open Science Framework](www.osf.io).
-
-    * Opción de realizar un muestreo por cuotas a través de internet (Zhang et al.,2018).
-    
-    * Estudio comparado con otros países de América Latina.
-    
-- Explorar la relación entre el grado de información sobre desigualdad y preferencias redistributivas. 
-
----
-
-## Referencias
-
-[1] Jasso, G. (1999). How Much Injustice is There in the World? Two New Justice Indexes. American Sociological
-Review, 64(1):133–168.
-
-[2] Meltzer, A., & Richard, S. (1981). A Rational Theory of the Size of Government. Journal of Political Economy, 89(5), 914-927. Retrieved from http://www.jstor.org/stable/1830813
-
-[3] Trump, K. (2018). Income Inequality Influences Perceptions of Legitimate Income Differences. British Journal of Political Science, 48(4), 929-952.
-doi:10.1017/S0007123416000326
-
-[4] Zhang, B., Mildenberger, M., Howe, P. D., Marlon, J., Rosenthal, S. A., y Leiserowitz, A. (2018). Quota sampling using Facebook advertisements. Political Science Research and Methods, pages 1–7.
-
+## Coordinadores: Juan Carlos Castillo & Julio Iturra
 
 
 
